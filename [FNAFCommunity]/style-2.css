@@ -4,7 +4,7 @@ body {
     color: rgb(255, 0, 0);
 }
   header {
-    background-color: rgb(27, 10, 65);
+    background-color: rgb(38, 14, 91);
     color: rgb(255, 0, 0);
     display: flex;
     justify-content: space-between;
@@ -61,7 +61,7 @@ body {
   }
   
   button[type="submit"] {
-    background-color: #333;
+    background-color: #000000;
     color: #ff0000;
     border: none;
     padding: 10px 20px;
@@ -80,7 +80,7 @@ body {
     }
   
     header button {
-      background-color: #333;
+      background-color: #000000;
       color: #ff0000;
       border: none;
       padding: 10px 20px;
@@ -90,7 +90,7 @@ body {
   
     header button:hover {
       background-color: #ff0000;
-      color: #333;
+      color: #000000;
     }
   
     nav li {
@@ -104,7 +104,7 @@ body {
     nav a {
       display: block;
       padding: 10px;
-      background-color: #333;
+      background-color: #000000;
       color: #ff0000;
       border-radius: 2px;
     }
@@ -113,4 +113,10 @@ body {
       background-color: #ff0000;
       color: #333;
     }
+  }
+  .www {
+    width: 40%;
+  }
+  .me {
+    width: 20%;
   }
