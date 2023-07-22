@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+body {
+    background-color: rgb(27, 10, 65);
+    color: rgb(255, 0, 0);
+}
+  header {
+    background-color: rgb(38, 14, 91);
+    color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 0 0 20px;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: #000000;
+    color: #ff0000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  /* Медиа-запросы */
+  @media screen and (max-width: 600px) {
+    header nav {
+      display: none;
+    }
+  
+    header h1 {
+      margin: 0;
+    }
+  
+    header button {
+      background-color: #000000;
+      color: #ff0000;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+  
+    header button:hover {
+      background-color: #ff0000;
+      color: #000000;
+    }
+  
+    nav li {
+      margin: 0;
+    }
+  
+    nav li:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  
+    nav a {
+      display: block;
+      padding: 10px;
+      background-color: #000000;
+      color: #ff0000;
+      border-radius: 2px;
+    }
+  
+    nav a:hover {
+      background-color: #ff0000;
+      color: #333;
+    }
+  }
+  .www {
+    width: 40%;
+  }
+  .me {
+    width: 20%;
+  }
